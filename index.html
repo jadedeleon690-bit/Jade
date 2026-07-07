@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jade Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <!-- nav -->
+  <nav>
+    <span class="nav-logo">Jade Portfolio</span>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home dito lalagay yung picture at intro ng portfolio-->
+  <section id="home">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="hero-inner">
+
+      <div class="hero-left">
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-frame">
+            <div class="photo-placeholder">
+              <span> <img src="image\Myface.jpg" alt="Jade">  </span> <!-- May alt dito na atribute ay para sa name ko sa baba ng picture-->
+            </div>
+          </div>
+          <span class="photo-corner pc-tl"></span>
+          <span class="photo-corner pc-tr"></span>
+          <span class="photo-corner pc-bl"></span>
+          <span class="photo-corner pc-br"></span>
+          <div class="floating-tag tag-top">BSIT · 2nd Year</div>
+          
+        </div>
+        <div class="hero-nametag">Jade De Leon</div>
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-name">
+          Hello, I'm<br>
+          <span class="accent-word">Jade</span>
+        </h1>
+        <p class="hero-tagline">
+          BSIT Student · 3nd Year<br>
+          Building my logical and critical thingking,curious, driven, willing to learn.
+        </p>
+        <div class="hero-btns">
+           <!--Dito nagamit ako jumplinks para sa pag pindot napupunta sa projects and contact -->
+          <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-eye"></i> View My Projects</a>
+          <a href="#contacts" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>SCROLL Up</span>
+      <div class="line"></div>
+    </div>
+  </section>
+
+  <!-- About me, dito kona kwento at kung ano pa tungkol sakin -->
+  <section id="about">
+    <div class="section-wrap">
+     
+      <h2 class="section-title">About Me</h2>
+      <div class="section-divider"></div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Hi I'm  <strong>Jade De Leon</strong>, <strong>20 Years Old</strong>, <strong>3nd-year BSIT student</strong> I'm from <strong>Gattaran,Cagayn </strong>,
+            some of habits is playing online games, watching movies and anime, also i play basketball sometimes, I chose WebDev for a reason that this is 
+            the best major right now. I'm not that good at web right now but I'm willing to improve my skils and to learn new things.
+            <span class="hobby-tag"><i class="fa-solid fa-code"></i> web developer </span>
+            <span class="hobby-tag"><i class="fa-solid fa-graduation-cap"></i> 3nd Year BSIT</span>
+            </p>
+
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card"><span class="stat-num">3nd</span><div class="stat-label">Year in BSIT</div></div>
+          <div class="stat-card"><span class="stat-num">WebDev</span><div class="stat-label">Major</div></div>
+          <div class="stat-card"><span class="stat-num">4</span><div class="stat-label">Projects Done and Counting</div></div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills dito may mga icons din para makita kung ano ang mga skills nayun -->
+  <section id="skills">
+    <div class="section-wrap">
+      <p class="section-label">SKILLS THAT LEARN AND STILL LEARNING</p>
+      <h2 class="section-title">Skills</h2>
+      <div class="section-divider"></div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon"><i class="fa-brands fa-html5" style="color:#e34f26;"></i></span>
+          <div class="skill-name">HTML / CSS</div>
+          <div class="skill-sub">Basic Web Coding</div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"><i class="fa-solid fa-database" style="color:#00e5ff;"></i></span>
+          <div class="skill-name">Database</div>
+          <div class="skill-sub">System Development</div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"><i class="fa-solid fa-bolt" style="color:#ffd700;"></i></span>
+          <div class="skill-name">Basic Circuiting</div>
+          <div class="skill-sub">Wiring and Electronics</div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"><i class="fa-solid fa-screwdriver-wrench" style="color:#aaa;"></i></span>
+          <div class="skill-name">Technical Skills</div>
+          <div class="skill-sub">Hardware &amp; Troubleshooting</div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"><i class="fa-solid fa-desktop" style="color:#7c3aed;"></i></span>
+          <div class="skill-name">System Making</div>
+          <div class="skill-sub">Software Projects</div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon">
+            <img src="image\Ps.png">
+          </span>
+          <div class="skill-name">Photo Editing</div>
+          <div class="skill-sub">Adobe Photoshop</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects nagamit ako ng flex at grid para sa mga pictures -->
+  <!-- Tapos simple description sa baba ng picture-->
+  <section id="projects">
+    <div class="section-wrap">
+      <p class="section-label">SIMPLE PROJECTS</p>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-divider"></div>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <img class="project-img" src="image\projectsv1.png">
+          <div class="project-body">
+            <div class="project-title">Hotel Management System</div>
+            <p class="project-desc"> I created a simple system.</p>
+          </div>
+        </div>=
+        <div class="project-card">
+        <img src="image\projectsv2.png">
+          <div class="project-body">
+            <div class="project-title">Login Form For My System</div>
+            <p class="project-desc"> Simple Form that can login you to my system.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="image\P1.jpg">
+         
+            <div class="project-title">First Coding</div>
+            <p class="project-desc"> Labolatory practice,first code i learn.</p>
+          </div>
+        </div>
+
+        <div class="project-card">
+         <img src="image\p2.jpg">
+          
+            <div class="project-title">Editing using Photo Shop</div>
+            <p class="project-desc"> I Learn basic editing.</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contacts kinuha ko mga links ng mga social media ko para pag click direct sila sa social media ko na naka link  -->
+  <section id="contacts">
+    <div class="section-wrap">
+      <p class="section-label">SOCIALS TO CONTACT ME</p>
+      <h2 class="section-title">Contacts</h2>
+      <div class="section-divider"></div>
+      <div class="contact-inner">
+        <p class="contact-subtitle">
+          Feel free to reach out  for collaboration, questions, or just to say hi!
+          Just Click any icon below to connect with me.
+        </p>
+        <div class="social-grid">
+          <a href="https://www.facebook.com/share/1FeZnMPEU3/" class="social-link fb" target="_blank" rel="noopener">
+            <i class="fa-brands fa-facebook social-icon"></i>
+            <span class="social-name">Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/jade_zkieeee?igsh=MXJta3lsN2xscmU1dg==" class="social-link ig" target="_blank" rel="noopener">
+            <i class="fa-brands fa-instagram social-icon"></i>
+            <span class="social-name">Instagram</span>
+          </a>
+          <a href="https://www.tiktok.com/@just_ja.de?is_from_webapp=1&sender_device=pc" class="social-link tt" target="_blank" rel="noopener">
+            <i class="fa-brands fa-tiktok social-icon"></i>
+            <span class="social-name">TikTok</span>
+          </a>
+          
+          </a>
+          <a href="https://t.me/Jadezkieee" class="social-link tg" target="_blank" rel="noopener">
+            <i class="fa-brands fa-telegram social-icon"></i>
+            <span class="social-name">Telegram</span>
+          </a>
+          <a href="tel:+639532881338" class="social-link ph">
+            <i class="fa-solid fa-phone social-icon"></i>
+            <span class="social-name">+63 9532881338</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <span class="ac">Jade Portfolio</span> &nbsp;&nbsp;·&nbsp;&nbsp; BSIT 3nd Year &nbsp;&nbsp;·&nbsp;&nbsp; &copy; 2026
+  </footer>
+</body>
+</html>
